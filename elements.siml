@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="elements knowledge">
+    
+    <Model>
+      <Pattern>IS [ELEMENTS] AN ELEMENT</Pattern>
+      <Response> yes <Match /> is an element.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>IS * AN ELEMENT</Pattern>
+      <Response>No, it isn't.</Response>
+    </Model>
+---------------------------------------------------------------------------------------------------------------------
+    <Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>THE FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>THE FIRST ELEMENT IS WHAT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER ONE</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
+    </Model>
+--------------------------------------------------------------------------------------------------------------------
+	 <Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>THE SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>THE SECOND ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWO</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>THE SECOND ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SECOND ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
+    </Model>
+-------------------------------------------------------------------------------------------------------------------
+ 	<Model>
+      <Pattern>WHAT IS THE THIRD ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRD ELEMENT IS WHAT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER THREE</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRD ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRD ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRD ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRD ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model>
+---------------------------------------------------------------------------------------------------------------
+ 	<Model>
+      <Pattern>OK THANK YOU</Pattern>
+      <Response>your welcome.</Response>
+    </Model><Model>
+      <Pattern>THANK YOU</Pattern>
+      <Response>your welcome.</Response>
+    </Model><Model>
+      <Pattern>TY</Pattern>
+      <Response>your welcome.</Response>
+    </Model>
+     
+  </Concept>
+</Siml>
