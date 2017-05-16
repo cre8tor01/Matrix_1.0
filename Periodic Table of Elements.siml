@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  
+  
+  <UserSettings>
+  
+  	<Variable Name="Elementone" Value="Hydrogen" />
+	<Variable Name="Elementtwo" Value="Helium" />
+	<Variable Name="Elementthree" Value="Lithium" />
+	<Variable Name="Elementfour" Value="Beryllium" />
+	<Variable Name="Elementfive" Value="Boron" />
+	<Variable Name="Elementsix" Value="Carbon" />
+	<Variable Name="Elementseven" Value="Nitrogen" />
+	<Variable Name="Elementeight" Value="Oxygen" />
+	<Variable Name="Elementnine" Value="Fluorine" />
+	<Variable Name="Elementten" Value="Neon" />
+	<Variable Name="Elementeleven" Value="Sodium" />
+	<Variable Name="Elementtweleve" Value="Magnesium" />
+	<Variable Name="Elementthirteen" Value="Aluminium" />
+	<Variable Name="Elementfourteen" Value="Silicon" />
+	<Variable Name="Elementfifteen" Value="Phosphorus" />
+	<Variable Name="Elementsixteen" Value="Sulfur" />
+	<Variable Name="Elementseventeen" Value="Chlorine" />
+	<Variable Name="Elementeighteen" Value="Argon" />
+	<Variable Name="Elementninteen" Value="Potassium" />
+	<Variable Name="Elementtwenty" Value="Calicum" />
+	<Variable Name="Elementtwentyone" Value="Scandium" />
+	<Variable Name="Elementtwentytwo" Value="Titanium" />
+	<Variable Name="Elementtwentythree" Value="Vanadium" />
+	<Variable Name="Elementtwentyfour" Value="Chromium" />
+	<Variable Name="Elementtwentyfive" Value="Mangamese" />
+  </UserSettings>
+</Siml>
