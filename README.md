@@ -2,7 +2,7 @@
 # Matrix_1.0
 My First Artifical Intelligence Version 1.0
 
-###**Instructions to edit A.i.**
+##**Instructions to edit A.i.**
 
 **Download  _Syn Bot Studio_**
 
