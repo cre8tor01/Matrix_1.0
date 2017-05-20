@@ -2,7 +2,7 @@
 # Matrix_1.0
 My First Artifical Intelligence Version 1.0
 
-##**Instructions to edit A.i.**
+### **Instructions to edit A.i.**
 
 **Download  _Syn Bot Studio_**
 
@@ -10,15 +10,15 @@ My First Artifical Intelligence Version 1.0
 
 **Download _Syn Virtual Assistant_**
 
-  (Syn Virtual Assistant is the framework to run the A.i. program)
+  (Syn Virtual Assistant is the framework and all you need to run the A.i. program)
 
-**Download _Visual Code 2017_
+**Download _Visual Code 2017_**
 
   (Visual Code 2017 is an all in one Code making and editing program)
 
-**Download _Visual Studio Code_
+**Download _Visual Studio Code_**
 
-  (Visual Studio Code is like Syn Bot Studio but more in depth.....Advanced code editor)
+  (The Syn Bot team is going to this program and all tutorials from the Syn Developer Network are going to be in this program Visual Studio Code is like Syn Bot Studio but more in depth.....Advanced code editor)
 
 
 
