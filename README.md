@@ -1,4 +1,3 @@
-
 # Matrix_1.0
 My First Artifical Intelligence Version 1.0
 
@@ -29,7 +28,7 @@ Windows users make a folder on your desktop name it A.I.
 
 
 
-##**Table of Contents**
+## **Table of Contents**
 
 Periodic Table of Elements  (I only have 25 done so far)
 
