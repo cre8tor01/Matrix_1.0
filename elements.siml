@@ -9,37 +9,36 @@
     
     <Model>
       <Pattern>IS * AN ELEMENT</Pattern>
-      <Response>No, it isn't.</Response>
+      <Response>No, <Match /> isn't an element but be sure to check your spelling.</Response>
     </Model>
+    
+    <Model>
+      <Pattern>[ELEMENTS]</Pattern>
+      <Response>
+        <Match /> is an element.</Response>
+    </Model>
+    
 ---------------------------------------------------------------------------------------------------------------------
-    <Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>THE FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>THE FIRST ELEMENT IS WHAT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS ELEMENT NUMBER ONE</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementone" /></Response>
-    </Model>
+	<Model>
+	<Pattern>
+	<Item>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Item>
+	<Item>FIRST ELEMENT</Item>
+	<Item>THE FIRST ELEMENT</Item>
+	<Item>THE FIRST ELEMENT IS WHAT</Item>
+	<Item>WHAT IS THE FIRST ELEMENT</Item>
+	<Item>WHAT IS ELEMENT NUMBER ONE</Item>
+	<Item>THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Item>
+	<Item>THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Item>
+	<Item>WHAT IS THE PERIODIC TABLE OF ELEMENTS FIRST ELEMENT</Item>
+	<Item>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE</Item>
+	<Item>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE</Item>
+	<Item>WHAT IS THE FIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Item>
+	</Pattern><Response><User Get="Elementone" /></Response>
+	</Model>	 
 --------------------------------------------------------------------------------------------------------------------
 	 <Model>
-      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
+      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /> is the <Match /> Element.</Response>
+    </Model><Model><Pattern>SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
     </Model><Model>
       <Pattern>THE SECOND ELEMENT</Pattern><Response><User Get="Elementtwo" /></Response>
     </Model><Model>
@@ -59,13 +58,12 @@
     </Model><Model>
       <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwo" /></Response>
     </Model><Model>
-      <Pattern>WHAT IS THE SECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
-    </Model><Model>
       <Pattern>WHAT IS THE SECOND ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwo" /></Response>
     </Model>
 -------------------------------------------------------------------------------------------------------------------
  	<Model>
       <Pattern>WHAT IS THE THIRD ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model><Model><Pattern>THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
     </Model><Model>
       <Pattern>THE THIRD ELEMENT</Pattern><Response><User Get="Elementthree" /></Response>
     </Model><Model>
@@ -83,11 +81,659 @@
     </Model><Model>
       <Pattern>WHAT IS THE THIRD ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementthree" /></Response>
     </Model><Model>
-      <Pattern>WHAT IS THE FIRST ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementthree" /></Response>
-    </Model><Model>
-      <Pattern>WHAT IS THE THIRD ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+      <Pattern>WHAT IS THE THIRD ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementthree" /></Response>
     </Model><Model>
       <Pattern>WHAT IS THE THIRD ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthree" /></Response>
+    </Model>
+---------------------------------------------------------------------------------------------------------------
+ 	<Model>
+      <Pattern>WHAT IS THE FOURTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model><Pattern>FOURTH ELEMENT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTH ELEMENT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTH ELEMENT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER FOUR</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS FOURTH ELEMENT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FOURTH ELEMENT</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model><Model>  
+      <Pattern>WHAT IS THE FOURTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfour" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE FIFTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model><Pattern>FIFTH ELEMENT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTH ELEMENT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTH ELEMENT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER FIVE</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS FIFTH ELEMENT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FIFTH ELEMENT</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfive" /></Response>
+    </Model>
+--------------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE SIXTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTH ELEMENT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTH ELEMENT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER SIX</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS SIXTH ELEMENT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS SIXTH ELEMENT</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementsix" /></Response>
+    </Model>
+-------------------------------------------------------------------------------------------------------------------------------------
+		<Model>
+      <Pattern>WHAT IS THE SEVENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTH ELEMENT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTH ELEMENT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER SEVEN</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS SEVENTH ELEMENT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS SEVENTH ELEMENT</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementseven" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE EIGHTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTH ELEMENT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTH ELEMENT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER EIGHT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS EIGHTH ELEMENT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS EIGHTH ELEMENT</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeight" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE NINTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>THE NINTH ELEMENT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>THE NINTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINTH ELEMENT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER NINE</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS NINTH ELEMENT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>THE NINTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS NINTH ELEMENT</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementnine" /></Response>
+    </Model>	
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>THE TENTH ELEMENT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>THE TENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TENTH ELEMENT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TEN</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TENTH ELEMENT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>THE TENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TENTH ELEMENT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementten" /></Response>
+    </Model>	
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE ELEVENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>THE ELEVENTH ELEMENT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>THE ELEVENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE ELEVENTH ELEMENT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER ELEVEN</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS ELEVENTH ELEMENT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>THE ELEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS ELEVENTH ELEMENT</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE ELEVENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE ELEVENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE ELEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeleven" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWELFTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>THE TWELFTH ELEMENT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>THE TWELFTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWELFTH ELEMENT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWELVE</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWELFTH ELEMENT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>THE TWELFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWELFTH ELEMENT</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWELFTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWELFTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWELFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtweleve" /></Response>
+    </Model>
+-----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE THIRTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTEENTH ELEMENT</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTEENTH ELEMENT</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER THIRTEEN</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS THIRTEENTH ELEMENT</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS THIRTEENTH ELEMENT</Pattern><Response><User Get="Elementten" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthirteen" /></Response>
+    </Model>	
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE FOURTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTEENTH ELEMENT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTEENTH ELEMENT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER FOURTEEN</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS FOURTEENTH ELEMENT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FOURTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FOURTEENTH ELEMENT</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FOURTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfourteen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE FIFTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTEENTH ELEMENT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTEENTH ELEMENT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER FIFTEEN</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS FIFTEENTH ELEMENT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>THE FIFTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS FIFTEENTH ELEMENT</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE FIFTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementfifteen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE SIXTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTEENTH ELEMENT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTEENTH ELEMENT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER SIXTEEN</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS SIXTEENTH ELEMENT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>THE SIXTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS SIXTEENTH ELEMENT</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SIXTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementsixteen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE SEVENTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTEENTH ELEMENT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTEENTH ELEMENT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER SEVENTEEN</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS SEVENTEENTH ELEMENT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>THE SEVENTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS SEVENTEENTH ELEMENT</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE SEVENTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementseventeen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE EIGHTEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTEENTH ELEMENT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTEENTH ELEMENT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER EIGHTEEN</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS EIGHTEENTH ELEMENT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>THE EIGHTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS EIGHTEENTH ELEMENT</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE EIGHTEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementeighteen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE NINETEENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>THE NINETEENTH ELEMENT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>THE NINETEENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINETEENTH ELEMENT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER NINETEEN</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS NINETEENTH ELEMENT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>THE NINETEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS NINETEENTH ELEMENT</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINETEENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINETEENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE NINETEENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementnineteen" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------	
+	<Model>
+      <Pattern>WHAT IS THE TWENTIETH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTIETH ELEMENT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTIETH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTIETH ELEMENT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTY</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTIETH ELEMENT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTIETH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTIETH ELEMENT</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTIETH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTIETH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTIETH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwenty" /></Response>
+    </Model>
+  --------------------------------------------------------------------------------------------------------------------------------
+     <Model>
+      <Pattern>WHAT IS THE TWENTYFIRST ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIRST ELEMENT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIRST ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIRST ELEMENT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYFIRST</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYFIRST ELEMENT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYFIRST ELEMENT</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIRST ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIRST ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIRST ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyone" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+     <Model>
+      <Pattern>WHAT IS THE TWENTYSECOND ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSECOND ELEMENT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSECOND ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSECOND ELEMENT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYSECOND</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYSECOND ELEMENT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSECOND ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYSECOND ELEMENT</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSECOND ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSECOND ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSECOND ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentytwo" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYTHIRD ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYTHIRD ELEMENT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYTHIRD ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYTHIRD ELEMENT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYTHIRD</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYTHIRD ELEMENT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYTHIRD ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYTHIRD ELEMENT</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYTHIRD ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYTHIRD ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYTHIRD ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentythree" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYFOURTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFOURTH ELEMENT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFOURTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFOURTH ELEMENT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYFOUR</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYFOURTH ELEMENT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFOURTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYFOURTH ELEMENT</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFOURTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFOURTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFOURTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyfour" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYFIFTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIFTH ELEMENT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIFTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIFTH ELEMENT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYFIVE</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYFIFTH ELEMENT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYFIFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYFIFTH ELEMENT</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIFTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIFTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYFIFTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyfive" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYSIXTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSIXTH ELEMENT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSIXTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSIXTH ELEMENT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYSIX</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYSIXTH ELEMENT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSIXTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYSIXTH ELEMENT</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSIXTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSIXTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSIXTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentysix" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYSEVENTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSEVENTH ELEMENT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSEVENTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSEVENTH ELEMENT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYSEVEN</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYSEVENTH ELEMENT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYSEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYSEVENTH ELEMENT</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSEVENTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSEVENTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYSEVENTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyseven" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYEIGHTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYEIGHTH ELEMENT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYEIGHTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYEIGHTH ELEMENT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTYEIGHT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYEIGHTH ELEMENT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYEIGHTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYEIGHTH ELEMENT</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYEIGHTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYEIGHTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYEIGHTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentyeight" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE TWENTYNINTH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYNINTH ELEMENT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYNINTH ELEMENT IS WHAT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYNINTH ELEMENT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER TWENTY</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS TWENTYNINTH ELEMENT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>THE TWENTYNINTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS TWENTYNINTH ELEMENT</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYNINTH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYNINTH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE TWENTYNINTH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementtwentynine" /></Response>
+    </Model>
+----------------------------------------------------------------------------------------------------------------------------------
+	<Model>
+      <Pattern>WHAT IS THE THIRTIETH ELEMENT OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTIETH ELEMENT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTIETH ELEMENT IS WHAT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTIETH ELEMENT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS ELEMENT NUMBER THIRTY</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>THE PERIODIC TABLE OF ELEMENTS THIRTIETH ELEMENT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>THE THIRTIETH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS IS WHAT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE PERIODIC TABLE OF ELEMENTS THIRTIETH ELEMENT</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTIETH ELEMENT ON THE PERIODIC TABLE</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTIETH ELEMENT OF THE PERIODIC TABLE</Pattern><Response><User Get="Elementthirty" /></Response>
+    </Model><Model>
+      <Pattern>WHAT IS THE THIRTIETH ELEMENT ON THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Elementthirty" /></Response>
     </Model>
 ---------------------------------------------------------------------------------------------------------------
  	<Model>
