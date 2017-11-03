@@ -1,0 +1,26 @@
+<Siml>
+  <Concept Name="elements atomic number">
+   <Model>
+   	<Pattern>WHAT IS THE FIRST ELEMENTS ATOMIC NUMBER OF THE PERIODIC TABLE OF ELEMENTS</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model>
+
+ <Model>
+   	<Pattern>WHAT IS HYDROGEN'S ATOMIC NUMBER</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model><Model>
+   	<Pattern>WHAT IS HYDROGENS ATOMIC NUMBER</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model><Model>
+   	<Pattern>HYDROGEN HAS AN ATOMIC NUMBER OF</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model><Model>
+   	<Pattern>HYDROGEN HAS AN ATOMIC NUMBER OF WHAT</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model>
+   <Model>
+   	<Pattern>HYDROGEN'S ATOMIC NUMBER</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model>
+ 	<Model>
+   	<Pattern>HYDROGEN'S ATOMIC NUMBER IS</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model><Model>
+   	<Pattern>THE ATOMIC NUMBER OF HYDROGEN</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model><Model>
+   	<Pattern>THE ATOMIC NUMBER OF HYDROGEN IS WHAT</Pattern><Response><User Get="Hydrogenatomicnumber" /> is the atomic number of Hydrogen</Response>
+   </Model></Concept>
+</Siml>
