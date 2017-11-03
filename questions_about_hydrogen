@@ -1,0 +1,47 @@
+<Siml>
+  <Concept Name="Questions about Hydrogen">
+    
+    <Model>
+      <Pattern>
+        <Item>WHAT IS HYDROGEN</Item>
+      </Pattern>
+      <Response>The simplest element. A colorless, odorless, highly flammable gas, the chemical element of atomic number 1. </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>WHAT ARE THE PHYSICAL PROPERTIES OF HYDROGEN</Pattern>
+      <Response>		Physical properties
+				Atomic mass: 1.0079
+				Density: 0.09 g/cm3
+				Group: Hydrogen
+				Electrons: 1s1
+				Melting point: 13.81 K
+				Boiling point: 20.28 K
+				Discovered: 1766</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>WHAT CAN YOU TELL ME ABOUT HYDROGEN</Item>
+        <Item>DO YOU KNOW ANYTHING ABOUT HYDROGEN</Item>
+        <Item>TELL MY SOMETHING ABOUT HYDROGEN</Item>
+        <Item>I NEED INFORMATION ON HYDROGEN</Item>
+      </Pattern>
+      <Response>
+        <Random>
+          <Item>It's essential for all life</Item>
+          <Item>It is abundant in the universe.</Item>
+          <Item>Physical properties
+				Atomic mass: 1.0079
+				Density: 0.09 g/cm3
+				Group: Hydrogen
+				Electrons: 1s1
+				Melting point: 13.81 K
+				Boiling point: 20.28 K
+				Discovered: 1766</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>
