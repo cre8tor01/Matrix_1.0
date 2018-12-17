@@ -30,7 +30,7 @@
 <!-- For more information see http://www.alicebot.org -->
 
  <category>  
-        <pattern> Hello </pattern>  
+        <pattern>HELLO</pattern>  
         <template>  
             <random>  
                 <li> Hi </li>  
@@ -46,7 +46,43 @@
             </random>  
         </template>  
     </category>
+ 
+  <category>  
+        <pattern>HI</pattern>  
+        <template>  
+                <srai>HELLO</srai> 
+        </template>  
+    </category>
+ 
+  <category>  
+        <pattern>HEY</pattern>  
+        <template>  
+                <srai>HELLO</srai> 
+        </template>  
+    </category>
 
+  <category>  
+        <pattern>HOW ARE YOU</pattern>  
+        <template>  
+              <random>  
+                <li>Good</li>  
+                <li>I'm good.</li>  
+                <li>I'm ok.</li>  
+                <li>I'm fine.</li>  
+                <li>Better now that were talking.</li>  
+                <li>Fantastic</li> 
+                <li>Better every day.</li>  
+                <li>Better every day i learn new stuff.</li>  
+                <li>Great</li>    
+            </random>
+        </template>  
+    </category>
+ 
+ <category>  
+        <pattern>HOW ARE YOU *</pattern>  
+        <template>HOW ARE YOU</template>  
+    </category>
+ 
 <category> 
 <pattern>PROTO</pattern>
  <random>  
@@ -62,12 +98,14 @@
 <category>
 <pattern>WHICH HAT SHOULD I WEAR</pattern>
     <template>
+      <random>  
         <li>The Altoona Curve hat.</li> 
         <li>The Pittsburg Pirates hat.</li> 
         <li>The camo colored Guard Specialist Inc. hat.</li> 
         <li>The gray Norfolk Southern horse flag hat.</li> 
         <li>The 2016 blue gray Norfolk Southern hat.</li> 
         <li>The red colored Guard Specialist Inc. hat.</li> 
+      </random>
     </template>
 </category>
 
